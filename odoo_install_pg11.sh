@@ -70,7 +70,7 @@ echo -e "\n---- Install python packages ----"
 sudo apt-get install python-dateutil python-feedparser python-ldap python-libxslt1 python-lxml python-mako python-openid python-psycopg2 python-pybabel python-pychart python-pydot python-pyparsing python-reportlab python-simplejson python-tz python-vatnumber python-vobject python-webdav python-werkzeug python-xlwt python-yaml python-zsi python-docutils python-psutil python-mock python-unittest2 python-jinja2 python-pypdf python-decorator python-requests python-passlib python-pil -y python-suds
 
 echo -e "\n---- Install python libraries ----"
-sudo pip install gdata psycogreen ofxparse XlsxWriter xlrd ebaysdk pysftp jxmlease simplejson cachetools phonenumbers num2words psycopg2-binary watchdog xlwt
+sudo pip install gdata psycogreen ofxparse XlsxWriter xlrd ebaysdk pysftp jxmlease simplejson cachetools phonenumbers num2words psycopg2-binary watchdog xlwt Pillow
 echo -e "\n--- Install other required packages"
 sudo apt-get install node-clean-css -y
 sudo apt-get install node-less -y
